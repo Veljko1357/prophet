@@ -6,6 +6,8 @@ edit.blade.php - edit page
 delete.blade.php - delete page
 insights.blade.php - insights page for account and media 
 
+Tailwindcss has been used for styling and before starting the project npm run dev command should be ran, and php artisan serve for localhost server.
+
 it has dedicated controllers for each of the views and follows the same naming convention.
 The env file contains the
 instagrapi url - the port on which instagrapi runs on docker
