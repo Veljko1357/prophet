@@ -1,3 +1,33 @@
+This is a CRUD project which uses Instagrapi to login to Instagram, and it can fetch, edit, preview and delete media and can fetch and preview insights.
+It has 5 blade views:
+welcome.blade.php - login page
+upload.blade.php - upload page
+edit.blade.php - edit page
+delete.blade.php - delete page
+insights.blade.php - insights page for account and media 
+
+it has dedicated controllers for each of the views and follows the same naming convention.
+The env file contains the
+instagrapi url - the port on which instagrapi runs on docker
+username - instagram account username
+password - instagram account password
+
+when the username and password are input the login function can be ran to login the user into the account
+
+Before starting, docker container containing from the instagrapi folder shouold be made
+
+Besides my own account for testing insights i have made 2 additional account to test uploads:
+usernames:
+1. mirkospasic1
+2. siddiqezra
+password:
+testpass123
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
