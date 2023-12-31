@@ -20,6 +20,7 @@ Besides my own account for testing insights i have made 2 additional account to 
 usernames:
 1. mirkospasic1
 2. siddiqezra
+   
 password:
 testpass123
 
